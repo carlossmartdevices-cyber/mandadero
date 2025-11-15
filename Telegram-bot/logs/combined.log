@@ -1,0 +1,229 @@
+2025-11-10T03:16:48: 2025-11-10 03:16:48,362 - __main__ - INFO - 🤖 Starting Mandadero Telegram Bot...
+2025-11-10T03:16:48: 2025-11-10 03:16:48,363 - __main__ - INFO - 🗄️ Initializing database...
+2025-11-10T03:16:48: 2025-11-10 03:16:48,385 - services.database - INFO - Database tables created successfully
+2025-11-10T03:16:48: 2025-11-10 03:16:48,385 - __main__ - INFO - ✅ Database initialized successfully
+2025-11-10T03:16:48: 2025-11-10 03:16:48,385 - __main__ - INFO - 🔧 Creating Telegram application...
+2025-11-10T03:16:48: 2025-11-10 03:16:48,398 - __main__ - INFO - ✅ Command handlers registered
+2025-11-10T03:16:48: 2025-11-10 03:16:48,398 - __main__ - INFO - 🚀 Starting bot polling...
+2025-11-10T03:16:48: 2025-11-10 03:16:48,744 - telegram.ext._application - INFO - Application started
+2025-11-10T03:18:00: 2025-11-10 03:18:00,146 - services.database - ERROR - Error adding user 8365312597: (psycopg2.errors.NumericValueOutOfRange) integer out of range
+2025-11-10T03:18:00: 
+2025-11-10T03:18:00: [SQL: INSERT INTO users (id, username, first_name, last_name, is_verified, updated_at) VALUES (%(id)s, %(username)s, %(first_name)s, %(last_name)s, %(is_verified)s, %(updated_at)s) RETURNING users.created_at]
+2025-11-10T03:18:00: [parameters: {'id': 8365312597, 'username': 'Pnptvadmin', 'first_name': 'Santino', 'last_name': None, 'is_verified': False, 'updated_at': None}]
+2025-11-10T03:18:00: (Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-10T03:20:42: 2025-11-10 03:20:42,823 - services.database - ERROR - Error adding user 8365312597: (psycopg2.errors.NumericValueOutOfRange) integer out of range
+2025-11-10T03:20:42: 
+2025-11-10T03:20:42: [SQL: INSERT INTO users (id, username, first_name, last_name, is_verified, updated_at) VALUES (%(id)s, %(username)s, %(first_name)s, %(last_name)s, %(is_verified)s, %(updated_at)s) RETURNING users.created_at]
+2025-11-10T03:20:42: [parameters: {'id': 8365312597, 'username': 'Pnptvadmin', 'first_name': 'Santino', 'last_name': None, 'is_verified': False, 'updated_at': None}]
+2025-11-10T03:20:42: (Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-10T03:28:04: 2025-11-10 03:28:04,667 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-11-10T03:28:04: 2025-11-10 03:28:04,667 - telegram.ext._application - INFO - Application.stop() complete
+2025-11-10T03:28:05: 2025-11-10 03:28:05,127 - __main__ - INFO - 🤖 Starting Mandadero Telegram Bot...
+2025-11-10T03:28:05: 2025-11-10 03:28:05,127 - __main__ - INFO - 🗄️ Initializing database...
+2025-11-10T03:28:05: 2025-11-10 03:28:05,144 - services.database - INFO - Database tables created successfully
+2025-11-10T03:28:05: 2025-11-10 03:28:05,144 - __main__ - INFO - ✅ Database initialized successfully
+2025-11-10T03:28:05: 2025-11-10 03:28:05,145 - __main__ - INFO - 🔧 Creating Telegram application...
+2025-11-10T03:28:05: 2025-11-10 03:28:05,157 - __main__ - INFO - ✅ All handlers registered (commands, callbacks, messages)
+2025-11-10T03:28:05: 2025-11-10 03:28:05,158 - __main__ - INFO - 🚀 Starting bot polling...
+2025-11-10T03:28:05: 2025-11-10 03:28:05,523 - telegram.ext._application - INFO - Application started
+2025-11-10T06:10:20: 2025-11-10 06:10:20,473 - services.database - ERROR - Error adding user 8365312597: (psycopg2.errors.NumericValueOutOfRange) integer out of range
+2025-11-10T06:10:20: 
+2025-11-10T06:10:20: [SQL: INSERT INTO users (id, username, first_name, last_name, is_verified, updated_at) VALUES (%(id)s, %(username)s, %(first_name)s, %(last_name)s, %(is_verified)s, %(updated_at)s) RETURNING users.created_at]
+2025-11-10T06:10:20: [parameters: {'id': 8365312597, 'username': 'Pnptvadmin', 'first_name': 'Santino', 'last_name': None, 'is_verified': False, 'updated_at': None}]
+2025-11-10T06:10:20: (Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-10T06:12:39: 2025-11-10 06:12:39,334 - services.database - ERROR - Error adding user 8365312597: (psycopg2.errors.NumericValueOutOfRange) integer out of range
+2025-11-10T06:12:39: 
+2025-11-10T06:12:39: [SQL: INSERT INTO users (id, username, first_name, last_name, is_verified, updated_at) VALUES (%(id)s, %(username)s, %(first_name)s, %(last_name)s, %(is_verified)s, %(updated_at)s) RETURNING users.created_at]
+2025-11-10T06:12:39: [parameters: {'id': 8365312597, 'username': 'Pnptvadmin', 'first_name': 'Santino', 'last_name': None, 'is_verified': False, 'updated_at': None}]
+2025-11-10T06:12:39: (Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-11-10T06:12:39: 2025-11-10 06:12:39,538 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+2025-11-10T06:12:39: Traceback (most recent call last):
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_application.py", line 1063, in process_update
+2025-11-10T06:12:39:     await coroutine
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_handler.py", line 141, in handle_update
+2025-11-10T06:12:39:     return await self.callback(update, context)
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/app/handlers/callbacks.py", line 21, in handle_callback
+2025-11-10T06:12:39:     await handle_registration_callback(query, user)
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/app/handlers/callbacks.py", line 129, in handle_registration_callback
+2025-11-10T06:12:39:     await query.edit_message_text(
+2025-11-10T06:12:39:     ...<3 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_callbackquery.py", line 241, in edit_message_text
+2025-11-10T06:12:39:     return await self.message.edit_text(
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<10 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_message.py", line 2446, in edit_text
+2025-11-10T06:12:39:     return await self.get_bot().edit_message_text(
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<13 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 1453, in edit_message_text
+2025-11-10T06:12:39:     return await super().edit_message_text(
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<13 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 334, in decorator
+2025-11-10T06:12:39:     result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+2025-11-10T06:12:39:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 3296, in edit_message_text
+2025-11-10T06:12:39:     return await self._send_message(
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<10 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+2025-11-10T06:12:39:     result = await super()._send_message(
+2025-11-10T06:12:39:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<17 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 515, in _send_message
+2025-11-10T06:12:39:     result = await self._post(
+2025-11-10T06:12:39:              ^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<7 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 422, in _post
+2025-11-10T06:12:39:     return await self._do_post(
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<6 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+2025-11-10T06:12:39:     return await super()._do_post(
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<6 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 453, in _do_post
+2025-11-10T06:12:39:     return await request.post(
+2025-11-10T06:12:39:            ^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<6 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 165, in post
+2025-11-10T06:12:39:     result = await self._request_wrapper(
+2025-11-10T06:12:39:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10T06:12:39:     ...<7 lines>...
+2025-11-10T06:12:39:     )
+2025-11-10T06:12:39:     ^
+2025-11-10T06:12:39:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+2025-11-10T06:12:39:     raise BadRequest(message)
+2025-11-10T06:12:39: telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-11-11T01:10:41: 2025-11-11 01:10:41,480 - telegram.ext._updater - ERROR - Error while getting Updates: Bad Gateway
+2025-11-11T01:10:41: 2025-11-11 01:10:41,480 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+2025-11-11T01:10:41: Traceback (most recent call last):
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 600, in _network_loop_retry
+2025-11-11T01:10:41:     if not await action_cb():
+2025-11-11T01:10:41:            ^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 327, in polling_action_cb
+2025-11-11T01:10:41:     raise exc
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 312, in polling_action_cb
+2025-11-11T01:10:41:     updates = await self.bot.get_updates(
+2025-11-11T01:10:41:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:     ...<7 lines>...
+2025-11-11T01:10:41:     )
+2025-11-11T01:10:41:     ^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 524, in get_updates
+2025-11-11T01:10:41:     updates = await super().get_updates(
+2025-11-11T01:10:41:               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:     ...<9 lines>...
+2025-11-11T01:10:41:     )
+2025-11-11T01:10:41:     ^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 334, in decorator
+2025-11-11T01:10:41:     result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+2025-11-11T01:10:41:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 3584, in get_updates
+2025-11-11T01:10:41:     await self._post(
+2025-11-11T01:10:41:     ^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:     ...<7 lines>...
+2025-11-11T01:10:41:     ),
+2025-11-11T01:10:41:     ^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 422, in _post
+2025-11-11T01:10:41:     return await self._do_post(
+2025-11-11T01:10:41:            ^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:     ...<6 lines>...
+2025-11-11T01:10:41:     )
+2025-11-11T01:10:41:     ^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+2025-11-11T01:10:41:     return await super()._do_post(
+2025-11-11T01:10:41:            ^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:     ...<6 lines>...
+2025-11-11T01:10:41:     )
+2025-11-11T01:10:41:     ^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 453, in _do_post
+2025-11-11T01:10:41:     return await request.post(
+2025-11-11T01:10:41:            ^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:     ...<6 lines>...
+2025-11-11T01:10:41:     )
+2025-11-11T01:10:41:     ^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 165, in post
+2025-11-11T01:10:41:     result = await self._request_wrapper(
+2025-11-11T01:10:41:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:41:     ...<7 lines>...
+2025-11-11T01:10:41:     )
+2025-11-11T01:10:41:     ^
+2025-11-11T01:10:41:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+2025-11-11T01:10:41:     raise NetworkError(description or "Bad Gateway")
+2025-11-11T01:10:41: telegram.error.NetworkError: Bad Gateway
+2025-11-11T01:10:42: 2025-11-11 01:10:42,566 - telegram.ext._updater - ERROR - Error while getting Updates: Bad Gateway
+2025-11-11T01:10:42: 2025-11-11 01:10:42,566 - telegram.ext._application - ERROR - No error handlers are registered, logging exception.
+2025-11-11T01:10:42: Traceback (most recent call last):
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 600, in _network_loop_retry
+2025-11-11T01:10:42:     if not await action_cb():
+2025-11-11T01:10:42:            ^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 327, in polling_action_cb
+2025-11-11T01:10:42:     raise exc
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 312, in polling_action_cb
+2025-11-11T01:10:42:     updates = await self.bot.get_updates(
+2025-11-11T01:10:42:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:     ...<7 lines>...
+2025-11-11T01:10:42:     )
+2025-11-11T01:10:42:     ^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 524, in get_updates
+2025-11-11T01:10:42:     updates = await super().get_updates(
+2025-11-11T01:10:42:               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:     ...<9 lines>...
+2025-11-11T01:10:42:     )
+2025-11-11T01:10:42:     ^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 334, in decorator
+2025-11-11T01:10:42:     result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+2025-11-11T01:10:42:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 3584, in get_updates
+2025-11-11T01:10:42:     await self._post(
+2025-11-11T01:10:42:     ^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:     ...<7 lines>...
+2025-11-11T01:10:42:     ),
+2025-11-11T01:10:42:     ^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 422, in _post
+2025-11-11T01:10:42:     return await self._do_post(
+2025-11-11T01:10:42:            ^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:     ...<6 lines>...
+2025-11-11T01:10:42:     )
+2025-11-11T01:10:42:     ^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+2025-11-11T01:10:42:     return await super()._do_post(
+2025-11-11T01:10:42:            ^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:     ...<6 lines>...
+2025-11-11T01:10:42:     )
+2025-11-11T01:10:42:     ^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/_bot.py", line 453, in _do_post
+2025-11-11T01:10:42:     return await request.post(
+2025-11-11T01:10:42:            ^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:     ...<6 lines>...
+2025-11-11T01:10:42:     )
+2025-11-11T01:10:42:     ^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 165, in post
+2025-11-11T01:10:42:     result = await self._request_wrapper(
+2025-11-11T01:10:42:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-11T01:10:42:     ...<7 lines>...
+2025-11-11T01:10:42:     )
+2025-11-11T01:10:42:     ^
+2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+2025-11-11T01:10:42:     raise NetworkError(description or "Bad Gateway")
+2025-11-11T01:10:42: telegram.error.NetworkError: Bad Gateway
