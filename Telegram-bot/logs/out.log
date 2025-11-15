@@ -227,3 +227,5 @@
 2025-11-11T01:10:42:   File "/root/Mandadero/Telegram-bot/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
 2025-11-11T01:10:42:     raise NetworkError(description or "Bad Gateway")
 2025-11-11T01:10:42: telegram.error.NetworkError: Bad Gateway
+2025-11-11T15:18:34: 2025-11-11 15:18:34,451 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2025-11-11T15:18:34: 2025-11-11 15:18:34,452 - telegram.ext._application - INFO - Application.stop() complete
